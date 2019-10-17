@@ -37,7 +37,17 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps:
+
+  - git: https://github.com/input-output-hk/cardano-prelude
+    commit: 12ab51e27539c9cce042ded0c89efc0ccae6137a
+    subdirs:
+      - .
+      - test
+
+  - canonical-json-0.6.0.0@sha256:9021f435ccb884a3b4c55bcc6b50eb19d5fc3cc3f29d5fcbdef016f5bbae23a2
+
+
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
