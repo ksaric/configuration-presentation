@@ -46,6 +46,7 @@ extra-deps:
       - test
 
   - canonical-json-0.6.0.0@sha256:9021f435ccb884a3b4c55bcc6b50eb19d5fc3cc3f29d5fcbdef016f5bbae23a2
+  - generic-monoid-0.1.0.0@sha256:372875d12742b97befaacbd08a35c2e73cc3821a3b7a09ec1b17a079d0b24ff7
 
 
 
