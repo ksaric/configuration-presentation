@@ -18,6 +18,10 @@ someFunc = do
     cliValues <- execParser opts
 
     putTextLn "==========================================="
+    pPrint mainnetPresets
+    putTextLn "==========================================="
+
+    putTextLn "==========================================="
     pPrint cliValues
     putTextLn "==========================================="
 
